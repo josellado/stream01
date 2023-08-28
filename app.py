@@ -1,8 +1,8 @@
 import streamlit as st #
 import os#
 import os
-from dotenv import load_dotenv#
-load_dotenv()#
+#from dotenv import load_dotenv#
+#load_dotenv()#
 
 PASS_COMPRUEBA      = os.getenv('PASS_COMPRUEBA')#
 
