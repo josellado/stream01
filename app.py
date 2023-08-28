@@ -12,3 +12,5 @@ st.title("vemos si los .env funcionan")
 st.title(f" por fa dime que ves.... {PASS_COMPRUEBA}")
 
 st.subheader("padnas")
+
+st.table(pd.read_csv("backt_result_5_years.csv"))
