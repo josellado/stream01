@@ -3,9 +3,12 @@ import os#
 import os
 #from dotenv import load_dotenv#
 #load_dotenv()#
+import pandas as pd
 
 PASS_COMPRUEBA      = os.getenv('PASS_COMPRUEBA')#
 
 
 st.title("vemos si los .env funcionan")
 st.title(f" por fa dime que ves.... {PASS_COMPRUEBA}")
+
+st.subheader("padnas")
